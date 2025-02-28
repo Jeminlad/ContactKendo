@@ -108,4 +108,18 @@ public class HomeController : Controller
             return BadRequest(ModelState); // Return validation errors
         }
     }
+
+    [Route("Logout")]
+        public async Task<ActionResult> Logout()
+        {
+            HttpContext.Session.Clear();
+            if (HttpContext.Session.GetInt32("UserId") != null)
+            {
+                return RedirectToAction("Login", "Home");
+            }
+            else
+            {
+                return RedirectToAction("Login", "Home");
+            }
+        }
 }
