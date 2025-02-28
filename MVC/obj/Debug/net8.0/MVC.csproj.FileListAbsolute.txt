@@ -68,3 +68,4 @@ D:\VS code\Casepoint\KendoUI\ContactKendo\MVC\obj\Debug\net8.0\refint\MVC.dll
 D:\VS code\Casepoint\KendoUI\ContactKendo\MVC\obj\Debug\net8.0\MVC.pdb
 D:\VS code\Casepoint\KendoUI\ContactKendo\MVC\obj\Debug\net8.0\MVC.genruntimeconfig.cache
 D:\VS code\Casepoint\KendoUI\ContactKendo\MVC\obj\Debug\net8.0\ref\MVC.dll
+D:\VS code\Casepoint\KendoUI\ContactKendo\MVC\obj\Debug\net8.0\MVC.sourcelink.json

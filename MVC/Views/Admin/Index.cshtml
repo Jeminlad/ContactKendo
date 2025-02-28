@@ -1,5 +1,5 @@
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Admin Page";
     @* Layout = "../Shared/_AdminLayout.cshtml"; *@
 }
 
@@ -17,7 +17,7 @@
         const staticPath = "../../contact_images/";
 
         $.ajax({
-            url: "Admin/List/", // Replace with your API endpoint
+            url: "/Admin/List/", // Replace with your API endpoint
             type: 'GET',
             success: function (response) {
                 console.log(response);

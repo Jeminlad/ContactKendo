@@ -96,7 +96,7 @@ public class HomeController : Controller
             if (login.c_Email == "admin@admin" && login.c_Password == "admin")
             {
                 HttpContext.Session.SetInt32("UserId", 0);
-                return new JsonResult(new { success = true });
+                return Json(new { success = true, redirectUrl = Url.Action("Index", "Admin") });
             }
             else
             {

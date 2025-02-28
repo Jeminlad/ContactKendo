@@ -60,7 +60,7 @@
                     data: LoginData,
                     success: function (result) {
                         if (result.success) {
-                            window.location.href = "/Admin/Index";
+                           window.location.href = result.redirectUrl;
                         } else {
                             validationSuccess.html("<div class='k-messagebox k-messagebox-error'><p>" + result.message + "</p></div>");
                         }
